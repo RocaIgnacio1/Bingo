@@ -1,9 +1,8 @@
 
-def saludo():
-    return "Hola. Que tal"
-
-def restar(a, b):
-    return a - b
-
-def sumar(a, b):
-    return a + b
+def carton():
+    carton = (
+        (1,0,0,1,1,0,1,0,1),
+        (0,1,1,1,0,1,1,1,1),
+        (0,1,0,0,1,0,0,1,0)
+    )
+    return carton
